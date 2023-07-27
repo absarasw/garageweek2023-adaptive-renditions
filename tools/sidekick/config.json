@@ -1,0 +1,26 @@
+{
+  "project": "Screen Brands",
+  "plugins": [
+    {
+      "title": "Pushevent",
+      "id": "pushevent",
+      "environments": ["dev", "preview", "live","edit"],
+      "event": "pushevent"
+    },
+    {
+      "id": "foo1",
+      "title": "quick publish4",
+      "event": "foo",
+      "environments": ["dev", "preview", "live","edit"],
+      "url": "/tools/quick-publish/dist/index.html",
+      "includePaths": [ "**.docx**" ]
+
+    },
+    {
+      "id": "update-feed",
+      "title": "Update Feed",
+      "environments": [ "dev", "preview", "live","edit" ],
+      "event": "update-feed"
+    }
+  ]
+}

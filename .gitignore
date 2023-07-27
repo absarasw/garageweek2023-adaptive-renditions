@@ -1,0 +1,5 @@
+.idea/
+.hlx/*
+coverage/*
+logs/*
+.DS_Store

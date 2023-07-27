@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script type="text/javascript">
+        console.log("I am in foo");
+        var documentUrl = window.location.href;
+
+        // Make an HTTP GET request
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', documentUrl, true);
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var documentContent = xhr.responseText;
+                // Process the document content here
+                console.log(documentContent);
+            }
+        };
+        xhr.send();
+        console.log("request has been sent");
+    </script>
+</head>
+hello world1
+</html>

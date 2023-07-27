@@ -1,0 +1,24 @@
+{
+  "channels": [
+    {
+      "manifestPath": "/content/screens/menus/snack-sprint-v2.manifest.json",
+      "lastModified": "2023-07-04T11:51:29.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "menus",
+          "path": "/content/screens/menus"
+        }
+      ],
+      "externalId": "/content/screens/menus/snack-sprint-v2",
+      "title": "Snack Sprint",
+      "liveUrl": "https://sample-screens-project.aem-screens.com/content/screens/menus/snack-sprint-v2.html"
+    }
+  ],
+  "metadata": {
+    "providerType": "franklin"
+  }
+}
